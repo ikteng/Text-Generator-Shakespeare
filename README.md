@@ -1,4 +1,6 @@
 # Text-Generator-Shakespeare
+Tutorial: https://github.com/GoogleCloudPlatform/asl-ml-immersion/blob/master/notebooks/text_models/solutions/text_generation.ipynb
+
 This code implements a text generation model using a recurrent neural network (RNN) with LSTM layers
 
 ## Prepare Data
