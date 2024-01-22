@@ -55,7 +55,7 @@ model.fit(X_train, y_train, epochs=10)
 model.save('text_generator/text_generation_model.h5') 
 
 # Load the saved model
-loaded_model = tf.keras.models.load_model('text_generator2/text_generation_model.h5')
+loaded_model = tf.keras.models.load_model('text_generator/text_generation_model.h5')
 
 # Function to generate text using the loaded model
 def generate_text(seed_text, max_length, loaded_model, tokenizer, temperature=1.0):
